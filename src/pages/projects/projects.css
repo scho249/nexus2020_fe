@@ -1,0 +1,17 @@
+.pane {
+	display: flex;
+	height: 100vh;
+	background-color: #fff;
+}
+
+.left-pane{
+	background-color: #f6f6f8;
+	width: 50%;
+	position: relative;
+}
+
+.right-pane{
+	width: 50%;
+	display: flex;
+}
+
