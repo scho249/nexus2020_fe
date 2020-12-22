@@ -12,7 +12,7 @@ const Projects = () => {
 						<NavLink to="/" activeStyle>
 							Home
 							
-							Notification
+							Notifications
 							My Profile
 							My Project
 							Favorite
