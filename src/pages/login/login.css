@@ -1,0 +1,48 @@
+.pane {
+    display: flex;
+    height: 100vh; 
+    background-color: #fff;
+}
+
+.left-pane {
+    background-color: #f6f6f8;
+    width: 50%;
+    position: relative;
+}
+
+.right-pane {
+    width: 50%;
+    display: flex; 
+}
+
+.nexus {
+    position: absolute;
+    top: 10%;
+    left: 42%;
+    height: 70px;
+}
+
+.descr {
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    color: #757575;
+    font-size: 18px;
+}
+
+.intro {
+    padding-top: 35%;
+    font-size: 24px;
+    text-align: center;
+}
+
+.intro span {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.wrapper {
+    display: flex; 
+    justify-content: center;
+    vertical-align: auto;
+}
