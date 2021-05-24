@@ -2,6 +2,8 @@ import React from 'react';
 
 import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink } from './NavbarElements';
 
+import './Navbar.css';
+
 import NexusLogo from './../../img/nexus_logo.png';
 
 const Navbar = () => {
@@ -9,7 +11,7 @@ const Navbar = () => {
     <div>
       <Nav>
         <NavLink to="/">
-          <img className="logo" src={NexusLogo} alt="logo"></img>
+          <img className="Navbar__logo" src={NexusLogo} alt="logo"></img>
         </NavLink>
         <Bars />
         <NavMenu>

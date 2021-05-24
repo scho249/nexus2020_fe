@@ -1,28 +1,28 @@
-.pane {
+.Login {
     display: flex;
     height: 100vh; 
     background-color: #fff;
 }
 
-.left-pane {
+.Login__left {
     background-color: #f6f6f8;
     width: 50%;
     position: relative;
 }
 
-.right-pane {
+.Login__right {
     width: 50%;
     display: flex; 
 }
 
-.nexus {
+.Login__left--logo {
     position: absolute;
     top: 10%;
     left: 42%;
     height: 70px;
 }
 
-.descr {
+.Login__left--descr {
     position: absolute;
     top: 20%;
     left: 37%;
@@ -30,18 +30,18 @@
     font-size: 18px;
 }
 
-.intro {
+.Login__left--intro {
     padding-top: 35%;
     font-size: 24px;
     text-align: center;
 }
 
-.intro span {
+.Login__left--intro span {
     display: block;
     margin-bottom: 7px;
 }
 
-.wrapper {
+.Login__right--form {
     display: flex; 
     justify-content: center;
     vertical-align: auto;
