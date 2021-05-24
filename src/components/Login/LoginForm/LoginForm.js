@@ -29,11 +29,13 @@ export class LoginForm extends React.Component {
         <form onSubmit={this.handleSubmit} className="FormFields">
           <div className="LoginForm__field">
             <label className="LoginForm__label" htmlFor="email">Email Address</label>
-            <input type="email" id="email" className="LoginForm__input" placehoder="Enter your email" name="email" value={this.state.email} onChange={this.handleChange} />
+            <input type="email" id="email" className="LoginForm__input" placehoder="Enter your email"
+              name="email" value={this.state.email} onChange={this.handleChange} />
           </div>
           <div className="LoginForm__field">
             <label className="LoginForm__label" htmlFor="password">Password</label>
-            <input type="password" id="password" className="LoginForm__input" placehoder="Enter your password" name="pasword" value={this.state.password} onChange={this.handleChange} />
+            <input type="password" id="password" className="LoginForm__input" placehoder="Enter your password"
+              name="pasword" value={this.state.password} onChange={this.handleChange} />
           </div>
         </form>
       </div>

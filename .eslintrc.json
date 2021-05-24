@@ -27,6 +27,9 @@
             "error",
             "always"
         ],
+        "no-multi-spaces": [
+            "error"
+        ],
         "quotes": [
             "error",
             "single"
@@ -88,6 +91,13 @@
             {
                 "skipBlankLines": false
             }
+        ],
+        "max-len": [
+            "error",
+            {
+                "code": 120
+            }
+
         ]
     }
 }
